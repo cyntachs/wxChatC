@@ -21,20 +21,14 @@
 					<Add directory="$(#wx)/lib/gcc_dll/mswud" />
 				</ResourceCompiler>
 				<Linker>
-					<Add library="libwxmsw30ud_richtext.a" />
-					<Add library="libwxmsw30ud_aui.a" />
-					<Add library="libwxmsw30ud_dbgrid.a" />
-					<Add library="libwxbase30ud_odbc.a" />
-					<Add library="libwxbase30ud_net.a" />
-					<Add library="libwxbase30ud_xml.a" />
-					<Add library="libwxmsw30ud_adv.a" />
-					<Add library="libwxmsw30ud_html.a" />
-					<Add library="libwxmsw30ud_core.a" />
-					<Add library="libwxbase30ud.a" />
-					<Add library="libwxpngd.a" />
-					<Add library="libwxjpegd.a" />
+					<Add library="libwxmsw31ud_core.a" />
+					<Add library="libwxbase31ud.a" />
 					<Add library="libwxzlibd.a" />
-					<Add library="libwxregexud.a" />
+					<Add library="libwxpngd.a" />
+					<Add library="libwxmsw31ud_richtext.a" />
+					<Add library="libwxmsw31ud_stc.a" />
+					<Add library="libwxmsw31ud_aui.a" />
+					<Add library="libwxmsw31ud_adv.a" />
 					<Add directory="$(#wx)/lib/gcc_dll" />
 				</Linker>
 			</Target>
@@ -53,20 +47,6 @@
 				</ResourceCompiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="libwxmsw30u_richtext.a" />
-					<Add library="libwxmsw30u_aui.a" />
-					<Add library="libwxmsw30u_dbgrid.a" />
-					<Add library="libwxbase30u_odbc.a" />
-					<Add library="libwxbase30u_net.a" />
-					<Add library="libwxbase30u_xml.a" />
-					<Add library="libwxmsw30u_adv.a" />
-					<Add library="libwxmsw30u_html.a" />
-					<Add library="libwxmsw30u_core.a" />
-					<Add library="libwxbase30u.a" />
-					<Add library="libwxpng.a" />
-					<Add library="libwxjpeg.a" />
-					<Add library="libwxzlib.a" />
-					<Add library="libwxregexu.a" />
 					<Add directory="$(#wx)/lib/gcc_dll" />
 				</Linker>
 			</Target>
@@ -87,13 +67,10 @@
 		<Linker>
 			<Add option="-mthreads" />
 		</Linker>
-		<Unit filename="ChatCApp.cpp" />
-		<Unit filename="ChatCApp.h" />
-		<Unit filename="ChatCMain.cpp" />
-		<Unit filename="ChatCMain.h" />
-		<Unit filename="resource.rc">
-			<Option compilerVar="WINDRES" />
-		</Unit>
+		<Unit filename="Frame.cpp" />
+		<Unit filename="Frame.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
