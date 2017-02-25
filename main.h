@@ -15,6 +15,12 @@ public:
     void AddRoom();
 };
 
+class CRoom : public ChatRoom
+{
+public:
+    Room(wxWindow * p) : ChatRoom(p) {};
+};
+
 class App : public wxApp
 {
 public:

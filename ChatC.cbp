@@ -29,6 +29,7 @@
 					<Add library="libwxmsw31ud_stc.a" />
 					<Add library="libwxmsw31ud_aui.a" />
 					<Add library="libwxmsw31ud_adv.a" />
+					<Add library="libwxbase31ud_net.a" />
 					<Add directory="$(#wx)/lib/gcc_dll" />
 				</Linker>
 			</Target>
@@ -71,6 +72,7 @@
 		<Unit filename="Frame.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
+		<Unit filename="net.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

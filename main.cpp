@@ -16,7 +16,7 @@ void AppFrame::ShowChat()
 void AppFrame::AddRoom()
 {
     // Add new room
-    ChatRoom * newroom = new ChatRoom(Rooms);
+    CRoom * newroom = new CRoom(Rooms);
     Rooms->AddPage(newroom,_("room1"));
 };
 
